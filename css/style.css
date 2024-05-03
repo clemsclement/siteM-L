@@ -1,15 +1,26 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: "Amatic SC", sans-serif;
     font-weight: bold;
+
 }
 
 header{
-    font-size: xx-large;
+    position:relative;
 }
 
 header, footer{
     background-color: #D5AA7D;
     width: 100%;
+}
+
+header h2{
+    font-size: xx-large;
 }
 
 main{
