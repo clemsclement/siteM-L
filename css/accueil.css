@@ -1,3 +1,12 @@
-.imageAccueil {
+.imageAccueil{
     background-image: url(../images/entreeRestaurant.jpg);
+    background-size: contain;
+}
+
+.imageAccueil span{
+    color: transparent;
+}
+
+h1{
+    font-size: 200%;
 }
