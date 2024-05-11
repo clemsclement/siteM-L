@@ -1,0 +1,28 @@
+.imageEnTete{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.imageEnTete img{
+    display: block;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.imageEnTete span{
+    color: transparent;
+}
+
+.imageEnTete .texteEnTete{
+    position: absolute;
+    top: 10%;
+}
+
+h1{
+    font-size: 100px;
+}
+
+h3{
+    font-size: 30px;
+}

@@ -95,10 +95,10 @@ img[alt^="Icône"]{
 button{
     background-color: #513829;
     border-radius: 5%;
-    color: #C7D076;
 }
 
 button a{
+    color: #C7D076;
     text-decoration: none;
     font-family: "Amatic SC", sans-serif;
     font-weight: bold;

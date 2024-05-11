@@ -1,32 +1,3 @@
-.imageAccueil{
-    position: relative;
-    display: inline-block;
-    margin-bottom: 5%;
-}
-
-.imageAccueil img{
-    display: block;
-    width: 100%;
-    opacity: 0.5;
-}
-
-.imageAccueil span{
-    color: transparent;
-}
-
-.imageAccueil .texteAccueil{
-    position: absolute;
-    top: 10%;
-}
-
-h1{
-    font-size: 100px;
-}
-
-h3{
-    font-size: 30px;
-}
-
 .carteAccueil{
     display: flex;
     justify-content: space-around;
