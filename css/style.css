@@ -6,7 +6,7 @@
 body{
     font-family: "Amatic SC", sans-serif;
     font-weight: bold;
-
+    background-color: #F8F1E1;
 }
 
 header{
@@ -18,12 +18,13 @@ header, footer{
     width: 100%;
 }
 
-header h2{
-    font-size: xx-large;
+footer{
+    height: 20vh;
+    margin-top: 5%;
 }
 
-main{
-    background-color: #F8F1E1 ;
+header h2{
+    font-size: xx-large;
 }
 
 header ul{
@@ -38,7 +39,7 @@ header a{
     text-decoration: none;
 }
 
-header a:visited{
+ header a:visited{
     text-decoration: none;
     color: #513829;
 }
@@ -63,6 +64,7 @@ li a:active{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .containerPetitDebut{
@@ -82,8 +84,30 @@ li a:active{
 
 .containerImg{
     display: flex;
-    justify-content: space-evenly;
-      
+    justify-content: space-around;     
 }
 
+img[alt^="Icône"]{
+    width: 25px;
+    height: 25px;
+}
 
+button{
+    background-color: #513829;
+    border-radius: 5%;
+    color: #C7D076;
+}
+
+button a{
+    text-decoration: none;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button a:visited{
+    color: #C7D076;
+    text-decoration: none;
+}
