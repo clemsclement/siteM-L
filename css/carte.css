@@ -1,0 +1,62 @@
+h1{
+    position: absolute;
+    top: 30%;
+    right: 42%;
+}
+
+[class^="prix"]{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.prixPoke{
+    justify-content: space-around;
+}
+
+.prixLimonade{
+    margin-left: 4.3%;
+}
+
+.prixLimonade h2{
+    margin-right: 7%;
+}
+
+[class^="prix"] h2{
+    font-size: 400%;
+}
+
+[class^="prix"] p{
+    font-size: 200%;
+}
+
+.plats{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carte img{
+    width: 50%;
+}
+
+.carte h3{
+    font-size: 200%;
+}
+
+.carte p{
+    font-size: 120%;
+    margin-bottom: 1%;
+}
+
+.vege{
+    text-align: center;
+}
+.vege img{
+    width: 5%;
+}
