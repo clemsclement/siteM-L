@@ -19,10 +19,15 @@
     top: 10%;
 }
 
+.texteEnTete{
+    margin-left: 5%;
+}
+
 h1{
     font-size: 500%;
 }
 
-.texteEnTete h3{
+.texteEnTete h3,
+.texteEnTete h2{
     font-size: 200%;
 }
