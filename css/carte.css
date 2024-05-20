@@ -1,7 +1,7 @@
 h1{
     position: absolute;
-    top: 30%;
-    right: 42%;
+    top: 10%;
+    margin-left: 5%;
 }
 
 [class^="prix"]{
@@ -50,7 +50,7 @@ h1{
 }
 
 .carte p{
-    font-size: 120%;
+    font-size: 150%;
     margin-bottom: 1%;
 }
 

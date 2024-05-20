@@ -24,7 +24,7 @@ footer{
 }
 
 header h2{
-    font-size: xx-large;
+    font-size: 2.5em;
 }
 
 header ul{
@@ -94,7 +94,7 @@ img[alt^="Icône"]{
 
 button{
     background-color: #513829;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 button a{
@@ -102,9 +102,9 @@ button a{
     text-decoration: none;
     font-family: "Amatic SC", sans-serif;
     font-weight: bold;
-    font-size: x-large;
-    margin-left: 5px;
-    margin-right: 5px;
+    font-size: 250%;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 
 button a:visited{
