@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Space+Grotesk:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./../css/contact.css">
 </head>
 
 <body>
@@ -33,9 +34,33 @@
         </nav>
     </header>
     <main>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dignissimos aperiam alias 
-            eligendi ex. Odit, aliquam! Officiis commodi temporibus dolores, 
-            provident debitis molestiae, nemo amet pariatur tenetur voluptate ea. Cupiditate!</p>
+        <section class="enTete">
+            <!-- <img src="./../images/poké.PNG" alt="Photo des différents PokéBowls"> -->
+            <div class="contenu">
+                <h1>Contact</h1>
+                <div class="formulaire">
+                    <h2>Une Question ?</h2>
+                    <h2>Une Suggestion ?</h2>
+                    <h3>Ecrivez-nous !</h3>
+                    <form action="" method="">
+                        <div class="nomMail">
+                            <div class="formNom">
+                                <label for="name">Nom et Prénom :</label>
+                                <input type="text" id="name" name="userName">
+                            </div>
+                            <div class="formMail">
+                                <label for="mail">Votre Mail :</label>
+                                <input type="email" id="mail" name="userEmail">
+                            </div>
+                        </div>
+                        <label for="message">Votre message :</label>
+                        <textarea name="userMessage" id="message"></textarea>
+                        <button type="submit"><a href="">Envoyer</a></button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="containerGrand">
