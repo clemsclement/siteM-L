@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <title>Inscription</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Space+Grotesk:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/inscription.css">
 </head>
 
 <body>
@@ -33,9 +35,41 @@
     </nav>
     </header>
     <main>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dignissimos aperiam alias 
-            eligendi ex. Odit, aliquam! Officiis commodi temporibus dolores, 
-            provident debitis molestiae, nemo amet pariatur tenetur voluptate ea. Cupiditate!</p>
+        <section class="enTete">
+            <div class="contenu">
+                <h1>Inscription</h1>
+                <div class="formulaire">
+                    <form action="" method="">
+                        <div class="nomMail">
+                            <div class="formNom">
+                                <label for="tel">Numéro de Téléphone :</label>
+                                <input type="tel" id="tel" name="newtel">
+                            </div>
+                            <div class="formMail">
+                                <label for="newmail">Votre Mail :</label>
+                                <input type="email" id="newmail" name="newEmail">
+                            </div>
+                        </div>
+                        <div class="nomMail">
+                            <div class="formNom">
+                                <label for="newPassword">Entrez un Mot de Passe :</label>
+                                <input type="password" id="newPassword" name="newPassword">
+                            </div>
+                            <div class="formMail">
+                                <label for="confirmPassword">Confirmez le Mot de Passe :</label>
+                                <input type="password" id="confirmPassword" name="confirmPassword">
+                            </div>
+                        </div>
+                        <button type="submit"><a href="">Inscription</a></button>
+                        <div class="connexion">
+                            <p>Déjà un compte ?</p>
+                        <button type="submit"><a href="">Connexion</a></button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="containerGrand">

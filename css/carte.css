@@ -10,16 +10,12 @@ h1{
     margin-bottom: 1%;
 }
 
-.prixPoke{
+.prixPoke, .prixDessert, .prixLimonade{
     justify-content: space-around;
 }
 
-.prixLimonade{
-    margin-left: 4.3%;
-}
-
-.prixLimonade h2{
-    margin-right: 7%;
+.transparent{
+    color: transparent;
 }
 
 [class^="prix"] h2{
@@ -59,4 +55,8 @@ h1{
 }
 .vege img{
     width: 5%;
+}
+
+.prixLimonade, .prixDessert{
+    margin-top: 5%;
 }
