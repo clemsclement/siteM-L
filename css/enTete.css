@@ -21,10 +21,13 @@
 }
 
 h1{
-    font-size: 500%;
+    font-size: 5rem;
 }
 
-.texteEnTete h3,
 .texteEnTete h2{
-    font-size: 200%;
+    font-size: 3rem;
+}
+
+.texteEnTete h3{
+    font-size: 2rem;
 }

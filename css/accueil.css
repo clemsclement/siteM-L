@@ -25,17 +25,18 @@
 }
 
 .instagram{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     margin-bottom: 5%;
 }
 
 .instagram h3{
-    font-size: 250%;
+    font-size: 3rem;
 }
 
 .instagram p{
-    font-size: 250%;
+    font-size: 1rem;
     color: #F8F1E1;
 }
 

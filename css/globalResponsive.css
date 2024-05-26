@@ -1,0 +1,58 @@
+/* Sidenav menu */
+.sidenav {
+    height: 60%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #D5AA7D;
+    padding-top: 60px;
+    transition: left 0.5s;
+    padding-bottom: 5%;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #513829;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Active class */
+.sidenav.active {
+    left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+@media screen and (max-width: 900px) {
+    nav ul {
+        display: none;
+    }
+
+    .responsive {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    img[alt^="IcôneF"]{
+        width: 20px;
+    }
+}

@@ -9,9 +9,9 @@ body{
     background-color: #F8F1E1;
 }
 
-header{
+/* header{
     position:relative;
-}
+} */
 
 header, footer{
     background-color: #D5AA7D;
@@ -23,20 +23,20 @@ footer{
     margin-top: 5%;
 }
 
-header a{
+nav a{
 color: #513829;
 text-decoration: none;
 font-size: 2.5em;
 }
 
-header ul{
+nav ul{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
- header a:visited{
+ nav a:visited{
     text-decoration: none;
     color: #513829;
 }
@@ -75,6 +75,11 @@ li a:active{
     text-align: center;
 }
 
+.confi{
+    display: flex;
+    font-size: 0.7rem;
+}
+
 .containerPetitFin{
     text-align: end;
     margin-right: 1%;
@@ -82,12 +87,24 @@ li a:active{
 
 .containerImg{
     display: flex;
-    justify-content: space-around;     
+    justify-content: space-around; 
+    color:#D5AA7D;   
 }
 
-img[alt^="Icône"]{
+img[alt^="IcôneH"]{
+    width: 50px;
+}
+
+img[alt^="IcôneF"]{
     width: 25px;
-    height: 25px;
+}
+
+img[alt^="LogoR"]{
+    width: 100px; 
+}
+
+.responsive{
+    display: none;
 }
 
 button{

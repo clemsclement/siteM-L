@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/enTete.css">
     <link rel="stylesheet" href="./css/accueil.css">
+    <link rel="stylesheet" href="./css/globalResponsive.css">
+    <link rel="stylesheet" href="./css/accueilResponsive">
+    <script src="javascript/caroussel.js" defer></script>
+    <script src="./javascript/globalResponsive.js" defer></script>
 </head>
 
 <body>
@@ -37,12 +41,27 @@
                 </a></li>
             <div class="containerImg">
                 <a href="./pages/panier.html"><img width="50px" height="50px" src="./images/panier.png"
-                        alt="Icône Panier"></a>
+                        alt="IcôneH Panier"></a>
                 <a href="./pages/connexion.html"><img width="50px" height="50px" src="./images/connexion.png"
-                        alt="Icône Connexion"></a>
+                        alt="IcôneH Connexion"></a>
             </div>
         </ul>
         </nav>
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">×</a>
+            <ul>
+              <li><a href="pages/carte.html">La carte</a></li>
+              <li><a href="pages/apropos.html">à propos</a></li>
+              <li><a href="pages/recettes.html">Recettes</a></li>
+              <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
+        <ul class="responsive">
+            <a href="#" id="openBtn"><img src="./images/burgerMenu.png" alt="IcôneH Menu Burger"></a>
+            <img src="./images/logoResponsive.png" alt="LogoR Marinade et Limonade version responsive">
+            <a href="pages/panier.html"><img src="./images/panier.png" alt="IcôneH Panier"></a>
+            <a href="pages/connexion.html"><img src="./images/connexion.png" alt="IcôneH Connexion"></a>
+        </ul>
     </header>
 
     <main>
@@ -74,8 +93,7 @@
         <section class="instagram">
             <p>A effacer</p>
             <h3>Suivez-nous sur Instagram !</h3>
-            <button><a href="https://www.instagram.com/marinade_limonade/" target="_blank">S'abonner <img
-                        src="./images/instagram.png" alt="Icône Instagram"></a></button>
+            <button><a href="https://www.instagram.com/marinade_limonade/" target="_blank">S'abonner <img src="./images/instagram.png" alt="IcôneF Instagram"></a></button>
             <p>A effacer</p>
         </section>
         <section class="caroussel">
@@ -126,8 +144,8 @@
                         </div>
                     </div>
                     <div class="carousel-controls">
-                        <button id="prev"><img src="./images/fleche-gauche.png" alt="Icône flèche gauche"></button>
-                        <button id="next"><img src="./images/fleche-droite.png" alt="Icône flèche droite"></button>
+                        <button id="prev"><img src="./images/fleche-gauche.png" alt="IcôneH flèche gauche"></button>
+                        <button id="next"><img src="./images/fleche-droite.png" alt="IcôneH flèche droite"></button>
                     </div>
                     <div class="carousel-dots"></div>
                 </div>
@@ -139,11 +157,11 @@
         <div class="containerGrand">
             <div class="containerPetitDebut">
                 <p>
-                    <img src="./images/adresse.png" alt="Icône adresse">
+                    <img src="./images/adresse.png" alt="IcôneF adresse">
                     41 rue de caraman 31000 Toulouse
                 </p>
                 <p>
-                    <img src="./images/tel.png" alt="Icône téléphone">
+                    <img src="./images/tel.png" alt="IcôneF téléphone">
                     06 99 83 11 48
                 </p>
             </div>
@@ -151,20 +169,23 @@
                 <h2>Ouverture</h2>
                 <p>Du Lundi au Vendredi</p>
                 <p>11h45 à 14h00 - 19h00 à 22h00</p>
+                <div class="confi">
+                    <p>Mentions légales - Politique de confidentialité &nbsp</p>
+                    <p>2024 - by Clément Derchain</p>
+                </div>
             </div>
             <div class="containerPetitFin">
                 <div class="containerImg">
                     <a href="https://www.facebook.com/marinadelimonade" target="_blank"><img src="./images/facebook.png"
-                            alt="Icône Facebook"></a>
+                            alt="IcôneF Facebook"></a>
+                            <p>Effacer</p>
                     <a href="https://www.instagram.com/marinade_limonade/" target="_blank"><img
-                            src="./images/instagram.png" alt="Icône Instagram"></a>
+                            src="./images/instagram.png" alt="IcôneF Instagram"></a>
+                            <p>Effacer</p>
                 </div>
-                <p>Mentions légales - Politique de confidentialité</p>
-                <p>2024 - by Clément Derchain</p>
             </div>
         </div>
     </footer>
-    <script src="javascript/caroussel.js"></script>
 </body>
 
 </html>

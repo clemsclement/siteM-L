@@ -11,7 +11,9 @@
         href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Space+Grotesk:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="./../css/contact.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/globalResponsive.css">
+    <script src="../javascript/globalResponsive.js" defer></script>
 </head>
 
 <body>
@@ -26,12 +28,27 @@
             <li><span>CONTACT</span></li>
             <div class="icone">
                 <ul>
-                    <li><a href="panier.html"><img width="50px" height="50px" src="../images/panier.png" alt="Icone Panier"></a></li>
-                    <li><a href="connexion.html"><img width="50px" height="50px" src="../images/connexion.png" alt="Icone Connexion"></a></li>
+                    <li><a href="panier.html"><img src="../images/panier.png" alt="IcôneH Panier"></a></li>
+                    <li><a href="connexion.html"><img src="../images/connexion.png" alt="IcôneH Connexion"></a></li>
                 </ul>
             </div>
         </ul>
         </nav>
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">×</a>
+            <ul>
+              <li><a href="../index.html">Accueil</a></li>
+              <li><a href="carte.html">La Carte</a></li>
+              <li><a href="apropos.html">à propos</a></li>
+              <li><a href="recettes.html">Recettes</a></li>
+            </ul>
+          </div>
+        <ul class="responsive">
+            <a href="#" id="openBtn"><img src="../images/burgerMenu.png" alt="IcôneH Menu Burger"></a>
+            <img src="../images/logoResponsive.png" alt="LogoR Marinade et Limonade version responsive">
+            <a href="panier.html"><img src="../images/panier.png" alt="IcôneH Panier"></a>
+            <a href="connexion.html"><img src="../images/connexion.png" alt="IcôneH Connexion"></a>
+        </ul>
     </header>
     <main>
         <section class="enTete">
@@ -65,26 +82,32 @@
         <div class="containerGrand">
             <div class="containerPetitDebut">
                 <p>
-                    <img width="25px" height="25px" src="../images/adresse.png" alt="Icône adresse">
-                        41 rue de caraman 31000 Toulouse
+                    <img src="../images/adresse.png" alt="IcôneF adresse">
+                    41 rue de caraman 31000 Toulouse
                 </p>
                 <p>
-                    <img width="25px" height="25px" src="../images/tel.png" alt="Icône téléphone">
-                        06 99 83 11 48
+                    <img src="../images/tel.png" alt="IcôneF téléphone">
+                    06 99 83 11 48
                 </p>
             </div>
             <div class="containerPetitMilieu">
                 <h2>Ouverture</h2>
                 <p>Du Lundi au Vendredi</p>
                 <p>11h45 à 14h00 - 19h00 à 22h00</p>
+                <div class="confi">
+                    <p>Mentions légales - Politique de confidentialité &nbsp</p>
+                    <p>2024 - by Clément Derchain</p>
+                </div>
             </div>
             <div class="containerPetitFin">
                 <div class="containerImg">
-                    <a href="https://www.facebook.com/marinadelimonade" target="_blank"><img width="25px" height="25px" src="../images/facebook.png" alt="Icone Facebook"></a>
-                    <a href="https://www.instagram.com/marinade_limonade/" target="_blank"><img width="25px" height="25px" src="../images/instagram.png" alt="Icone Instagram"></a>
+                    <a href="https://www.facebook.com/marinadelimonade" target="_blank"><img src="../images/facebook.png"
+                            alt="IcôneF Facebook"></a>
+                            <p>Effacer</p>
+                    <a href="https://www.instagram.com/marinade_limonade/" target="_blank"><img
+                            src="../images/instagram.png" alt="IcôneF Instagram"></a>
+                            <p>Effacer</p>
                 </div>
-                <p>Mentions légales - Politique de confidentialité</p>
-                <p>2024 - by Clément Derchain</p>
             </div>
         </div>
     </footer>

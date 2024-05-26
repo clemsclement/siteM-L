@@ -12,6 +12,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/recettes.css">
+    <link rel="stylesheet" href="../css/globalResponsive.css">
+    <script src="../javascript/globalResponsive.js" defer></script>
 </head>
 
 <body>
@@ -26,12 +28,27 @@
             <li><a href="contact.html">CONTACT</a></li>
             <div class="icone">
                 <ul>
-                    <li><a href="panier.html"><img width="50px" height="50px" src="../images/panier.png" alt="Icone Panier"></a></li>
-                    <li><a href="connexion.html"><img width="50px" height="50px" src="../images/connexion.png" alt="Icone Connexion"></a></li>
+                    <li><a href="panier.html"><img src="../images/panier.png" alt="IcôneH Panier"></a></li>
+                    <li><a href="connexion.html"><img src="../images/connexion.png" alt="IcôneH Connexion"></a></li>
                 </ul>
             </div>
         </ul>
     </nav>
+    <div id="mySidenav" class="sidenav">
+        <a id="closeBtn" href="#" class="close">×</a>
+        <ul>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="carte.html">La Carte</a></li>
+          <li><a href="apropos.html">à Propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    <ul class="responsive">
+        <a href="#" id="openBtn"><img src="../images/burgerMenu.png" alt="IcôneH Menu Burger"></a>
+        <img src="../images/logoResponsive.png" alt="LogoR Marinade et Limonade version responsive">
+        <a href="panier.html"><img src="../images/panier.png" alt="IcôneH Panier"></a>
+        <a href="connexion.html"><img src="../images/connexion.png" alt="IcôneH Connexion"></a>
+    </ul>
     </header>
     <main>
         <h1>Idées Recettes</h1>
@@ -41,15 +58,15 @@
                 <img src="./../images/saumonGravlax.jpg" alt="Photo saumon Gravlax">
                 <div class="bouton">
                     <p>-</p>
-                    <p>2 personnes</p>
+                    <p>1 personne</p>
                     <p>+</p>
                 </div>
                 <div class="recette">
-                    <p>280g de saumon frais</p>
-                    <p>7g de poivre concassé</p>
-                    <p>19g d'aneth</p>
-                    <p>36g de sucre</p>
-                    <p>36g de sel</p>
+                    <p>140g de saumon frais</p>
+                    <p>4g de poivre concassé</p>
+                    <p>10g d'aneth</p>
+                    <p>18g de sucre</p>
+                    <p>18g de sel</p>
                 </div>
             </div>
             <div class="carte">
@@ -57,15 +74,15 @@
                 <img src="./../images/pickles.jpg" alt="Photo pickles d'oignons rouges">
                 <div class="bouton">
                     <p>-</p>
-                    <p>2 personnes</p>
+                    <p>1 personne</p>
                     <p>+</p>
                 </div>
                 <div class="recette">
-                    <p>2 oignons rouges</p>
-                    <p>500ml de vinaigre de cidre</p>
-                    <p>250ml de vinaigre de vin</p>
-                    <p>50g de sucre</p>
-                    <p>2g de sel et poivre</p>
+                    <p>1 oignons rouges</p>
+                    <p>250ml de vinaigre de cidre</p>
+                    <p>125ml de vinaigre de vin</p>
+                    <p>25g de sucre</p>
+                    <p>1g de sel et poivre</p>
                 </div>
             </div>
         </section>
@@ -75,13 +92,13 @@
                 <img src="./../images/rizVinaigre.jpg" alt="Photo d'un bol de riz vinaigré">
                 <div class="bouton">
                     <p>-</p>
-                    <p>2 personnes</p>
+                    <p>1 personne</p>
                     <p>+</p>
                 </div>
                 <div class="recette">
-                    <p>260g de riz japonais/rond</p>
-                    <p>3cl de vinaigre de riz</p>
-                    <p>2.5cl d'eau</p>
+                    <p>130g de riz japonais/rond</p>
+                    <p>2cl de vinaigre de riz</p>
+                    <p>2cl d'eau</p>
                     <p>3g de sucre</p>
                     <p>2g de sel</p>
                 </div>
@@ -91,15 +108,15 @@
                 <img src="./../images/teriyaki.jpg" alt="Photo d'un bol de sauce tériyaki">
                 <div class="bouton">
                     <p>-</p>
-                    <p>2 personnes</p>
+                    <p>1 personne</p>
                     <p>+</p>
                 </div>
                 <div class="recette">
                     <p>125g de sauce soja</p>
-                    <p>250cl d'eau</p>
-                    <p>20g de Maïzena</p>
-                    <p>36g de miel</p>
-                    <p>40g de mirin</p>
+                    <p>125cl d'eau</p>
+                    <p>10g de Maïzena</p>
+                    <p>18g de miel</p>
+                    <p>20g de mirin</p>
             </div>
         </section>
     </main>
@@ -107,26 +124,32 @@
         <div class="containerGrand">
             <div class="containerPetitDebut">
                 <p>
-                    <img width="25px" height="25px" src="../images/adresse.png" alt="Icône adresse">
-                        41 rue de caraman 31000 Toulouse
+                    <img src="../images/adresse.png" alt="IcôneF adresse">
+                    41 rue de caraman 31000 Toulouse
                 </p>
                 <p>
-                    <img width="25px" height="25px" src="../images/tel.png" alt="Icône téléphone">
-                        06 99 83 11 48
+                    <img src="../images/tel.png" alt="IcôneF téléphone">
+                    06 99 83 11 48
                 </p>
             </div>
             <div class="containerPetitMilieu">
                 <h2>Ouverture</h2>
                 <p>Du Lundi au Vendredi</p>
                 <p>11h45 à 14h00 - 19h00 à 22h00</p>
+                <div class="confi">
+                    <p>Mentions légales - Politique de confidentialité &nbsp</p>
+                    <p>2024 - by Clément Derchain</p>
+                </div>
             </div>
             <div class="containerPetitFin">
                 <div class="containerImg">
-                    <a href="https://www.facebook.com/marinadelimonade" target="_blank"><img width="25px" height="25px" src="../images/facebook.png" alt="Icone Facebook"></a>
-                    <a href="https://www.instagram.com/marinade_limonade/" target="_blank"><img width="25px" height="25px" src="../images/instagram.png" alt="Icone Instagram"></a>
+                    <a href="https://www.facebook.com/marinadelimonade" target="_blank"><img src="../images/facebook.png"
+                            alt="IcôneF Facebook"></a>
+                            <p>Effacer</p>
+                    <a href="https://www.instagram.com/marinade_limonade/" target="_blank"><img
+                            src="../images/instagram.png" alt="IcôneF Instagram"></a>
+                            <p>Effacer</p>
                 </div>
-                <p>Mentions légales - Politique de confidentialité</p>
-                <p>2024 - by Clément Derchain</p>
             </div>
         </div>
     </footer>
