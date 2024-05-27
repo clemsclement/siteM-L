@@ -19,11 +19,11 @@ h1{
 }
 
 [class^="prix"] h2{
-    font-size: 400%;
+    font-size: 3rem;
 }
 
 [class^="prix"] p{
-    font-size: 200%;
+    font-size: 1.5rem;
 }
 
 .plats{
@@ -42,11 +42,11 @@ h1{
 }
 
 .carte h3{
-    font-size: 200%;
+    font-size: 2rem;
 }
 
 .carte p{
-    font-size: 150%;
+    font-size: 1.5rem;
     margin-bottom: 1%;
 }
 

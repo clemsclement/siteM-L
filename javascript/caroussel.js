@@ -26,8 +26,8 @@
     }
     // Fonction pour afficher le prochain slide
     function showSlide() {
-        slideTo(currentSlide);
-        currentSlide++;
+        // slideTo(currentSlide);
+        // currentSlide++;
     }
     // Boucle pour créer les "dots" en fonction du nombre de slides
     for (let i = 1; i <= $slides.length; i++) {
