@@ -44,6 +44,64 @@
     filter: invert();
 }
 
+@media screen and (max-width: 900px) {
+    h1{
+            font-size: 2rem;
+        }
+    
+        .texteEnTete h2{
+            font-size: 1.5rem;
+        }
+    
+        .texteEnTete h3{
+            font-size: 1.2rem;
+        }
+    
+        .carteAccueil{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    
+        .carteAccueil .carte{
+            width: 75%;
+            height: auto;
+            margin-bottom: 5%;
+        }
+    
+        .instagram{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .instagram h3{
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2%;
+        }
+    
+        .instagram button{
+            font-size: 1rem;
+            text-align: center;
+            width: 75%;
+        }
+    
+        .instagram p{
+            display: none;
+        }
+    
+        .instagram img{
+            display: none;
+        }
+    
+        .caroussel{
+            display: none;
+        }   
+}
+
 /* Partie concernant le caroussel */
 
 .container {

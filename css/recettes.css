@@ -44,3 +44,17 @@ h2{
   margin-left: 10%;
   font-size: 1.7rem;
 }
+
+@media screen and (max-width : 900px) {
+    h1{
+        font-size: 4rem;
+    }
+
+    .containerCartes{
+        flex-wrap: wrap;
+    }
+
+    .carte{
+        margin-bottom: 5%;
+    }
+}
