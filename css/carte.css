@@ -75,6 +75,14 @@ h1{
         font-size: 1.1rem;
     }
 
+    .prixPoke h2{
+        font-size: 1.3rem;
+    }
+
+    .prixPoke p{
+        font-size: 1rem;
+    }
+
     .plats{
         flex-wrap: wrap;
         margin-top: 5%;
