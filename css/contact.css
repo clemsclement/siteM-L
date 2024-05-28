@@ -83,3 +83,9 @@ textarea{
 button{
     margin-bottom: 5%;
 }
+
+@media screen and (max-width: 900px ) {
+    .enTete{
+        width: 100%;
+    }
+}
