@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./css/enTete.css">
     <link rel="stylesheet" href="./css/accueil.css">
     <link rel="stylesheet" href="./css/globalResponsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="javascript/caroussel.js" defer></script>
     <script src="./javascript/globalResponsive.js" defer></script>
 </head>
@@ -21,40 +23,40 @@
 <body>
     <header>
         <nav>
-        <ul>
-            <li><span>
-                    ACCUEIL
-                </span></li>
-            <li><a href="./pages/carte.html">
-                    LA CARTE
-                </a></li>
-            <li><a href="./pages/apropos.html">
-                    À PROPOS
-                </a></li>
-            <li><img height="200px" src="./images/logo.jpg" alt="Logo du restaurant Marinade et Limonade"></li>
-            <li><a href="./pages/recettes.html">
-                    RECETTES
-                </a></li>
-            <li><a href="./pages/contact.html">
-                    CONTACT
-                </a></li>
-            <div class="containerImg">
-                <a href="./pages/panier.html"><img width="50px" height="50px" src="./images/panier.png"
-                        alt="IcôneH Panier"></a>
-                <a href="./pages/connexion.html"><img width="50px" height="50px" src="./images/connexion.png"
-                        alt="IcôneH Connexion"></a>
-            </div>
-        </ul>
+            <ul>
+                <li><span>
+                        ACCUEIL
+                    </span></li>
+                <li><a href="./pages/carte.html">
+                        LA CARTE
+                    </a></li>
+                <li><a href="./pages/apropos.html">
+                        À PROPOS
+                    </a></li>
+                <li><img height="200px" src="./images/logo.jpg" alt="Logo du restaurant Marinade et Limonade"></li>
+                <li><a href="./pages/recettes.html">
+                        RECETTES
+                    </a></li>
+                <li><a href="./pages/contact.html">
+                        CONTACT
+                    </a></li>
+                <div class="containerImg">
+                    <a href="./pages/panier.html"><img width="50px" height="50px" src="./images/panier.png"
+                            alt="IcôneH Panier"></a>
+                    <a href="./pages/connexion.html"><img width="50px" height="50px" src="./images/connexion.png"
+                            alt="IcôneH Connexion"></a>
+                </div>
+            </ul>
         </nav>
         <div id="mySidenav" class="sidenav">
             <a id="closeBtn" href="#" class="close">×</a>
             <ul>
-              <li><a href="pages/carte.html">La carte</a></li>
-              <li><a href="pages/apropos.html">à propos</a></li>
-              <li><a href="pages/recettes.html">Recettes</a></li>
-              <li><a href="pages/contact.html">Contact</a></li>
+                <li><a href="pages/carte.html">La carte</a></li>
+                <li><a href="pages/apropos.html">à propos</a></li>
+                <li><a href="pages/recettes.html">Recettes</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
             </ul>
-          </div>
+        </div>
         <ul class="responsive">
             <a href="#" id="openBtn"><img src="./images/burgerMenu.png" alt="IcôneH Menu Burger"></a>
             <img src="./images/logoResponsive.png" alt="LogoR Marinade et Limonade version responsive">
@@ -92,10 +94,11 @@
         <section class="instagram">
             <p>A effacer</p>
             <h3>Suivez-nous sur Instagram !</h3>
-            <button><a href="https://www.instagram.com/marinade_limonade/" target="_blank">S'abonner <img src="./images/instagram.png" alt="IcôneF Instagram"></a></button>
+            <button><a href="https://www.instagram.com/marinade_limonade/" target="_blank">S'abonner <img
+                        src="./images/instagram.png" alt="IcôneF Instagram"></a></button>
             <p>A effacer</p>
         </section>
-        <section class="caroussel">
+        <!-- <section class="caroussel">
             <div class="container">
                 <div class="carousel">
                     <div class="carousel-inner">
@@ -149,7 +152,25 @@
                     <div class="carousel-dots"></div>
                 </div>
             </div>
+        </section> -->
+        <!-- Slider main container -->
+        <section class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./images/pokebowl1.jpg" alt="Pokébowl Saumon Teriyaki"></div>
+                <div class="swiper-slide"><img src="./images/pokebowl2.jpg" alt="Pokébowl Féta Végé"></div>
+                <div class="swiper-slide"><img src="./images/pokebowl3.jpg" alt="Pokébowl Boeuf Piment"></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </section>
+
     </main>
 
     <footer>
@@ -177,10 +198,10 @@
                 <div class="containerImg">
                     <a href="https://www.facebook.com/marinadelimonade" target="_blank"><img src="./images/facebook.png"
                             alt="IcôneF Facebook"></a>
-                            <p>Effacer</p>
+                    <p>Effacer</p>
                     <a href="https://www.instagram.com/marinade_limonade/" target="_blank"><img
                             src="./images/instagram.png" alt="IcôneF Instagram"></a>
-                            <p>Effacer</p>
+                    <p>Effacer</p>
                 </div>
             </div>
         </div>
