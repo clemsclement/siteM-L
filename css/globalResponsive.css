@@ -1,6 +1,6 @@
 /* Sidenav menu */
 .sidenav {
-    height: 60%;
+    height: 30%;
     width: 150px;
     position: fixed;
     z-index: 1;
