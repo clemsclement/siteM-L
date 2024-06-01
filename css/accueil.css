@@ -97,8 +97,8 @@
             display: none;
         }
     
-        .caroussel{
-            display: none;
+        .swiper{
+            display: none !important;
         }   
 }
 
