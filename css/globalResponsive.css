@@ -1,6 +1,6 @@
 /* Sidenav menu */
 .sidenav {
-    height: 30%;
+    height: 50%;
     width: 150px;
     position: fixed;
     z-index: 1;
@@ -54,5 +54,23 @@
 
     img[alt^="IcôneF"]{
         width: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 900px) {
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    .carteA{
+        height: 40vh;
+    }
+
+    .carteA > button {
+        font-size: 0.6rem;
+    }
+
+    .carteA > p {
+        font-size: 0.9rem;
     }
 }

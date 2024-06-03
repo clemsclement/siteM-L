@@ -1,6 +1,4 @@
-//Récupérage des éléments
-
-//Récupération Saumon
+//Récupération des éléments de la recette Saumon
 
 const moinsSaumon = document.querySelector("#moinsSaumon");
 const plusSaumon = document.querySelector("#plusSaumon");
@@ -11,6 +9,7 @@ const ingPoivreSaumon = document.querySelector("#ingPoivreSaumon");
 const ingAnethSaumon = document.querySelector("#ingAnethSaumon");
 const ingSucreSaumon = document.querySelector("#ingSucreSaumon");
 const ingSelSaumon = document.querySelector("#ingSelSaumon");
+
 
 //Ajout du mot "personne" au <span> personneSaumon
 

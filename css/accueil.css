@@ -4,7 +4,7 @@
     margin-bottom: 5%;
 }
 
-.carte{
+.carteA{
     background-color: #C7D076;
     background-size: auto;
     border-radius: 10px;
@@ -16,7 +16,7 @@
     justify-content: space-evenly;
 }
 
-.carte p{
+.carteA p{
     font-size: 1.5em;
 }
 
@@ -64,7 +64,7 @@
             align-items: center;
         }
     
-        .carteAccueil .carte{
+        .carteAccueil .carteA{
             width: 75%;
             height: auto;
             margin-bottom: 5%;
