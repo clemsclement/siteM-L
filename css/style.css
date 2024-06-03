@@ -19,6 +19,10 @@ footer{
     margin-top: 5%;
 }
 
+nav img[alt="Logo du restaurant Marinade et Limonade"]{
+    height: 200px;
+}
+
 nav a{
 color: #513829;
 text-decoration: none;
