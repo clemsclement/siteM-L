@@ -113,6 +113,10 @@
     width: 100%;
   }
 
+  .swiper-button-prev, .swiper-button-next, .swipper-pagination{
+    color: #C7D076;
+  }
+
   .swiper-slide > img{
     width: 100%;
   }

@@ -95,6 +95,10 @@ img[alt^="IcôneH"]{
     width: 50px;
 }
 
+img[alt="IcôneH Panier"]{
+    padding-right: 20px;
+}
+
 img[alt^="IcôneF"]{
     width: 25px;
 }

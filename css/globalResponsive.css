@@ -42,11 +42,15 @@
 }
 
 @media screen and (max-width: 900px) {
-    nav ul {
+    nav > ul {
         display: none;
     }
 
-    .responsive {
+    .responsive{
+        display: block;
+    }
+    
+    .responsive > ul{
         display: flex;
         justify-content: space-around;
         align-items: center;

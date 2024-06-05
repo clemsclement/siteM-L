@@ -20,41 +20,43 @@
 <body>
     <header>
         <nav>
-        <ul>
-            <li><a href="../index.html">ACCUEIL</a></li>
-            <li><a href="carte.html">LA CARTE</a></li>
-            <li><a href="apropos.html">À PROPOS</a></li>
-            <li><img src="../images/logo.jpg" alt="Logo du restaurant Marinade et Limonade"></li>
-            <li><span>RECETTES</span></li>
-            <li><a href="contact.html">CONTACT</a></li>
-            <div class="icone">
-                <ul>
-                    <li><a href="panier.html"><img src="../images/panier.png" alt="IcôneH Panier"></a></li>
-                    <li><a href="connexion.html"><img src="../images/connexion.png" alt="IcôneH Connexion"></a></li>
-                </ul>
-            </div>
-        </ul>
-    </nav>
-    <div id="mySidenav" class="sidenav">
-        <a id="closeBtn" href="#" class="close">×</a>
-        <ul>
-          <li><a href="../index.html">Accueil</a></li>
-          <li><a href="carte.html">La Carte</a></li>
-          <li><a href="apropos.html">à Propos</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    <ul class="responsive">
-        <a href="#" id="openBtn"><img src="../images/burgerMenu.png" alt="IcôneH Menu Burger"></a>
-        <img src="../images/logoResponsive.png" alt="LogoR Marinade et Limonade version responsive">
-        <a href="panier.html"><img src="../images/panier.png" alt="IcôneH Panier"></a>
-        <a href="connexion.html"><img src="../images/connexion.png" alt="IcôneH Connexion"></a>
-    </ul>
+            <ul>
+                <li><a href="../index.html">ACCUEIL</a></li>
+                <li><a href="carte.html">LA CARTE</a></li>
+                <li><a href="apropos.html">À PROPOS</a></li>
+                <li><img src="../images/logo.jpg" alt="Logo du restaurant Marinade et Limonade"></li>
+                <li><span>RECETTES</span></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <div class="icone">
+                    <ul>
+                        <li><a href="panier.html"><img src="../images/panier.png" alt="IcôneH Panier"></a></li>
+                        <li><a href="connexion.html"><img src="../images/connexion.png" alt="IcôneH Connexion"></a></li>
+                    </ul>
+                </div>
+            </ul>
+        </nav>
+        <section id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">×</a>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="carte.html">La Carte</a></li>
+                <li><a href="apropos.html">à Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </section>
+        <section class="responsive">
+            <ul>
+                <a href="#" id="openBtn"><img src="../images/burgerMenu.png" alt="IcôneH Menu Burger"></a>
+                <img src="../images/logoResponsive.png" alt="LogoR Marinade et Limonade version responsive">
+                <a href="panier.html"><img src="../images/panier.png" alt="IcôneH Panier"></a>
+                <a href="connexion.html"><img src="../images/connexion.png" alt="IcôneH Connexion"></a>
+            </ul>
+        </section>
     </header>
     <main>
         <h1>Idées Recettes</h1>
         <section class="containerCartes">
-            <div class="carte">
+            <article class="carte">
                 <h2>Le Saumon Gravlax</h2>
                 <img src="./../images/saumonGravlax.jpg" alt="Photo saumon Gravlax">
                 <div class="bouton">
@@ -69,8 +71,8 @@
                     <p><span id="ingSucreSaumon"></span>g de sucre</p>
                     <p><span id="ingSelSaumon"></span>g de sel</p>
                 </div>
-            </div>
-            <div class="carte">
+            </article>
+            <article class="carte">
                 <h2>Pickles d'Oignons</h2>
                 <img src="./../images/pickles.jpg" alt="Photo pickles d'oignons rouges">
                 <div class="bouton">
@@ -85,10 +87,10 @@
                     <p>25g de sucre</p>
                     <p>1g de sel et poivre</p>
                 </div>
-            </div>
+            </article>
         </section>
         <section class="containerCartes">
-            <div class="carte">
+            <article class="carte">
                 <h2>Le Riz Vinaigré</h2>
                 <img src="./../images/rizVinaigre.jpg" alt="Photo d'un bol de riz vinaigré">
                 <div class="bouton">
@@ -103,8 +105,8 @@
                     <p>3g de sucre</p>
                     <p>2g de sel</p>
                 </div>
-            </div>
-            <div class="carte">
+            </article>
+            <article class="carte">
                 <h2>La Sauce Tériyaki</h2>
                 <img src="./../images/teriyaki.jpg" alt="Photo d'un bol de sauce tériyaki">
                 <div class="bouton">
@@ -118,12 +120,12 @@
                     <p>10g de Maïzena</p>
                     <p>18g de miel</p>
                     <p>20g de mirin</p>
-            </div>
+            </article>
         </section>
     </main>
     <footer>
-        <div class="containerGrand">
-            <div class="containerPetitDebut">
+        <section class="containerGrand">
+            <article class="containerPetitDebut">
                 <p>
                     <img src="../images/adresse.png" alt="IcôneF adresse">
                     41 rue de caraman 31000 Toulouse
@@ -132,8 +134,8 @@
                     <img src="../images/tel.png" alt="IcôneF téléphone">
                     06 99 83 11 48
                 </p>
-            </div>
-            <div class="containerPetitMilieu">
+            </article>
+            <article class="containerPetitMilieu">
                 <h2>Ouverture</h2>
                 <p>Du Lundi au Vendredi</p>
                 <p>11h45 à 14h00 - 19h00 à 22h00</p>
@@ -141,18 +143,18 @@
                     <p>Mentions légales - Politique de confidentialité &nbsp</p>
                     <p>2024 - by Clément Derchain</p>
                 </div>
-            </div>
-            <div class="containerPetitFin">
+            </article>
+            <article class="containerPetitFin">
                 <div class="containerImg">
-                    <a href="https://www.facebook.com/marinadelimonade" target="_blank"><img src="../images/facebook.png"
-                            alt="IcôneF Facebook"></a>
-                            <p>Effacer</p>
+                    <a href="https://www.facebook.com/marinadelimonade" target="_blank"><img
+                            src="../images/facebook.png" alt="IcôneF Facebook"></a>
+                    <p>Effacer</p>
                     <a href="https://www.instagram.com/marinade_limonade/" target="_blank"><img
                             src="../images/instagram.png" alt="IcôneF Instagram"></a>
-                            <p>Effacer</p>
+                    <p>Effacer</p>
                 </div>
-            </div>
-        </div>
+            </article>
+        </section>
     </footer>
 </body>
 

@@ -41,14 +41,12 @@
                         CONTACT
                     </a></li>
                 <div class="containerImg">
-                    <a href="./pages/panier.html"><img src="./images/panier.png"
-                            alt="IcôneH Panier"></a>
-                    <a href="./pages/connexion.html"><img src="./images/connexion.png"
-                            alt="IcôneH Connexion"></a>
+                    <a href="./pages/panier.html"><img src="./images/panier.png" alt="IcôneH Panier"></a>
+                    <a href="./pages/connexion.html"><img src="./images/connexion.png" alt="IcôneH Connexion"></a>
                 </div>
             </ul>
         </nav>
-        <div id="mySidenav" class="sidenav">
+        <section id="mySidenav" class="sidenav">
             <a id="closeBtn" href="#" class="close">×</a>
             <ul>
                 <li><a href="pages/carte.html">La carte</a></li>
@@ -56,19 +54,21 @@
                 <li><a href="pages/recettes.html">Recettes</a></li>
                 <li><a href="pages/contact.html">Contact</a></li>
             </ul>
-        </div>
-        <ul class="responsive">
-            <a href="#" id="openBtn"><img src="./images/burgerMenu.png" alt="IcôneH Menu Burger"></a>
-            <img src="./images/logoResponsive.png" alt="LogoR Marinade et Limonade version responsive">
-            <a href="pages/panier.html"><img src="./images/panier.png" alt="IcôneH Panier"></a>
-            <a href="pages/connexion.html"><img src="./images/connexion.png" alt="IcôneH Connexion"></a>
-        </ul>
+        </section>
+        <section class="responsive">
+            <ul>
+                <a href="#" id="openBtn"><img src="./images/burgerMenu.png" alt="IcôneH Menu Burger"></a>
+                <img src="./images/logoResponsive.png" alt="LogoR Marinade et Limonade version responsive">
+                <a href="pages/panier.html"><img src="./images/panier.png" alt="IcôneH Panier"></a>
+                <a href="pages/connexion.html"><img src="./images/connexion.png" alt="IcôneH Connexion"></a>
+            </ul>
+        </section>
     </header>
 
     <main>
         <section class="imageEnTete">
             <img src="./images/entreeRestaurant.jpg" alt="Entrée du Restaurant">
-            <div class="texteEnTete">
+            <section class="texteEnTete">
                 <h1>Bienvenue chez Marinade et Limonade !</h1>
                 <h2>Votre nouveau restaurant de PokéBowls à Toulouse</h2>
                 <p><span>texte à cacher</span></p>
@@ -76,20 +76,20 @@
                 <h3>De 11h45 à 14h00 et de 19h00 à 22H00</h3>
                 <p><span>texte à cacher</span></p>
                 <h3>A tout à l'heure !</h3>
-            </div>
+            </section>
         </section>
         <section class="carteAccueil">
-            <div class="carteA">
+            <article class="carteA">
                 <img src="./images/poke saumon.png" alt="Poké au saumon">
                 <button><a href="pages/carte.html">A emporter ?</a></button>
                 <p>Essayer notre système Click and Collect !</p>
-            </div>
-            <div class="carteA">
+            </article>
+            <article class="carteA">
                 <img src="./images/poke vg.png" alt="Poké Végétarien">
                 <button><a href="https://www.ubereats.com/fr/store/marinade-et-limonade/aVCLlCNyQbWohVObSO3MpA"
                         target="_blank">En livraison ?</a></button>
                 <p>Faites vous livrer chez vous !</p>
-            </div>
+                </article>
         </section>
         <section class="instagram">
             <p>A effacer</p>
@@ -101,15 +101,20 @@
         <!-- Slider main container -->
         <section class="swiper">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
+            <article class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="./images/ImageRedimensionnée/pokebowl1.jpg" alt="Pokébowl Saumon Teriyaki"></div>
-                <div class="swiper-slide"><img src="./images/ImageRedimensionnée/pokebowl2.jpg" alt="Pokébowl Féta Végé"></div>
-                <div class="swiper-slide"><img src="./images/ImageRedimensionnée/pokebowl3.jpg" alt="Pokébowl Boeuf Piment"></div>
-                <div class="swiper-slide"><img src="./images/ImageRedimensionnée/dessert3.jpg" alt="Mousse Chocolat"></div>
-                <div class="swiper-slide"><img src="./images/ImageRedimensionnée/pokebowl4.jpg" alt="Pokébowl Canard Potimarron"></div>
+                <div class="swiper-slide"><img src="./images/ImageRedimensionnée/pokebowl1.jpg"
+                        alt="Pokébowl Saumon Teriyaki"></div>
+                <div class="swiper-slide"><img src="./images/ImageRedimensionnée/pokebowl2.jpg"
+                        alt="Pokébowl Féta Végé"></div>
+                <div class="swiper-slide"><img src="./images/ImageRedimensionnée/pokebowl3.jpg"
+                        alt="Pokébowl Boeuf Piment"></div>
+                <div class="swiper-slide"><img src="./images/ImageRedimensionnée/dessert3.jpg" alt="Mousse Chocolat">
+                </div>
+                <div class="swiper-slide"><img src="./images/ImageRedimensionnée/pokebowl4.jpg"
+                        alt="Pokébowl Canard Potimarron"></div>
                 ...
-            </div>
+                </article>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
 
@@ -121,8 +126,8 @@
     </main>
 
     <footer>
-        <div class="containerGrand">
-            <div class="containerPetitDebut">
+        <section class="containerGrand">
+            <article class="containerPetitDebut">
                 <p>
                     <img src="./images/adresse.png" alt="IcôneF adresse">
                     41 rue de caraman 31000 Toulouse
@@ -131,8 +136,8 @@
                     <img src="./images/tel.png" alt="IcôneF téléphone">
                     06 99 83 11 48
                 </p>
-            </div>
-            <div class="containerPetitMilieu">
+            </article>
+            <article class="containerPetitMilieu">
                 <h2>Ouverture</h2>
                 <p>Du Lundi au Vendredi</p>
                 <p>11h45 à 14h00 - 19h00 à 22h00</p>
@@ -140,8 +145,8 @@
                     <p>Mentions légales - Politique de confidentialité &nbsp</p>
                     <p>2024 - by Clément Derchain</p>
                 </div>
-            </div>
-            <div class="containerPetitFin">
+            </article>
+            <article class="containerPetitFin">
                 <div class="containerImg">
                     <a href="https://www.facebook.com/marinadelimonade" target="_blank"><img src="./images/facebook.png"
                             alt="IcôneF Facebook"></a>
@@ -150,8 +155,8 @@
                             src="./images/instagram.png" alt="IcôneF Instagram"></a>
                     <p>Effacer</p>
                 </div>
-            </div>
-        </div>
+            </article>
+        </section>
     </footer>
 </body>
 
